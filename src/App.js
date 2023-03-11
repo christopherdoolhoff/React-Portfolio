@@ -1,11 +1,10 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project"
+import Project from "./components/Project";
 
 // import pages
 import About from "./pages/About";
@@ -16,10 +15,18 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <>
-    <div>
-      <Header />
-      <Navigation/>
-    </div>
+      <Router>
+        <div>
+          <Header />
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+          <Footer/>
+        </div>
+      </Router>
     </>
   );
 }
