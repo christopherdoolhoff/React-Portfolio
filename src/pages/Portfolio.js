@@ -1,7 +1,7 @@
 import React from "react";
-import prework from "../assets/images/prework study guide screenshot.png";
-import challenge1 from "../assets/images/challenge 1 screenshot.png";
-import challenge2 from "../assets/images/challenge 2 screenshot.png";
+import passwordGenerator from "../assets/images/passwordGeneratorScreenshot.png";
+import codeQuiz from "../assets/images/code-quiz.png";
+import workDayScheduler from "../assets/images/workDayScheduler.png";
 import mediaSearch from "../assets/images/Media Search Screenshot.png";
 import hubl from "../assets/images/HUBL Screenshot.png"
 
@@ -9,24 +9,35 @@ export default function Portfolio() {
   return (
     <main>
         <div id="applications">
-            <h4>Applications</h4>
+            <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="#applications">Applications:▼</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#passwordGenerator">Password Generator</a>
+                        <a href="#codeQuiz">Code Quiz</a>
+                        <a href="#workDayScheduler">Work Day Scheduler</a>
+                        <a href="#MediaSearch">Media Search</a>
+                        <a href="#HUBL">HUBL</a>
+                    </div>
+                </div>
             <div class="card">
-                <div id="prework">
-                    <h5>Bootcamp Prework Project</h5>
-                    <a href="https://christopherdoolhoff.github.io/prework-study-guide/" target="_blank">
-                        <img src={prework} alt="screenshot of prework website" />
+                <div id="passwordGenerator">
+                    <h5>Password Generator</h5>
+                    <a href="https://christopherdoolhoff.github.io/module-3-challenge/" target="_blank">
+                        <img src={passwordGenerator} alt="screenshot of password Generator website" />
                     </a>
                 </div>
-                <div id="challenge1">
-                    <h5>Bootcamp Challenge 1</h5>
-                    <a href="https://christopherdoolhoff.github.io/module-1-challenge/" target="_blank">
-                        <img src={challenge1} alt="screenshot of challenge 1 website" />
+                <div id="codeQuiz">
+                    <h5>Code Quiz</h5>
+                    <a href="https://christopherdoolhoff.github.io/code-quiz/" target="_blank">
+                        <img src={codeQuiz} alt="screenshot of code quiz website" />
                     </a>
                 </div>
-                <div id="challenge2">
-                    <h5>Bootcamp Challenge 2</h5>
-                    <a href="https://christopherdoolhoff.github.io/module-2-challenge/" target="_blank">
-                        <img src={challenge2} alt="screenshot of challenge 2 website" />
+                <div id="workDayScheduler">
+                    <h5>Work Day Scheduler</h5>
+                    <a href="https://christopherdoolhoff.github.io/work-day-scheduler/" target="_blank">
+                        <img src={workDayScheduler} alt="screenshot of workDayScheduler" />
                     </a>
                 </div>
                 <div id="MediaSearch">

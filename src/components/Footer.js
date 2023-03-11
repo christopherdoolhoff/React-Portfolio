@@ -4,7 +4,6 @@ export default function Header() {
   return (
     <div id="info">
     <ul>
-      <h2>Contact Info</h2>
       <li class="links">
         <h3>LinkedIn:</h3>{" "}
         <a href="https://www.linkedin.com/in/christopher-doolhoff-47776954/" target="_blank">
