@@ -1,5 +1,4 @@
 import './App.css';
-import BucketList from './components/BucketList';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import components
@@ -16,9 +15,12 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <>
+    <div>
+      <Header />
+      <Navigation/>
     </div>
+    </>
   );
 }
 
