@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.06dc929f.css",
+    "main.js": "/React-Portfolio/static/js/main.32f8695b.js",
+    "static/js/787.884a584e.chunk.js": "/React-Portfolio/static/js/787.884a584e.chunk.js",
+    "static/media/Media Search Screenshot.png": "/React-Portfolio/static/media/Media Search Screenshot.cfda9e7e35727013d3f3.png",
+    "static/media/code-quiz.png": "/React-Portfolio/static/media/code-quiz.765ee78f6f5e41842cbe.png",
+    "static/media/Christopher Doolhoff Resume.pdf": "/React-Portfolio/static/media/Christopher Doolhoff Resume.53e5bb99f245797d7f61.pdf",
+    "static/media/profileimg.png": "/React-Portfolio/static/media/profileimg.9905ff6b69d6bed82891.png",
+    "static/media/workDayScheduler.png": "/React-Portfolio/static/media/workDayScheduler.9579e7201043d6ffb246.png",
+    "static/media/passwordGeneratorScreenshot.png": "/React-Portfolio/static/media/passwordGeneratorScreenshot.fbaf0a034c049672804a.png",
+    "static/media/HUBL Screenshot.png": "/React-Portfolio/static/media/HUBL Screenshot.3a283f3718ea0c0db61a.png",
+    "static/media/NoteTaker.png": "/React-Portfolio/static/media/NoteTaker.ebb0c3342a61862c5428.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.06dc929f.css.map": "/React-Portfolio/static/css/main.06dc929f.css.map",
+    "main.32f8695b.js.map": "/React-Portfolio/static/js/main.32f8695b.js.map",
+    "787.884a584e.chunk.js.map": "/React-Portfolio/static/js/787.884a584e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06dc929f.css",
+    "static/js/main.32f8695b.js"
+  ]
+}
