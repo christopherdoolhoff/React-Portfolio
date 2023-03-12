@@ -4,6 +4,7 @@ import codeQuiz from "../assets/images/code-quiz.png";
 import workDayScheduler from "../assets/images/workDayScheduler.png";
 import mediaSearch from "../assets/images/Media Search Screenshot.png";
 import hubl from "../assets/images/HUBL Screenshot.png"
+import noteTaker from "../assets/images/NoteTaker.png"
 
 export default function Portfolio() {
   return (
@@ -19,6 +20,7 @@ export default function Portfolio() {
                         <a href="#workDayScheduler">Work Day Scheduler</a>
                         <a href="#MediaSearch">Media Search</a>
                         <a href="#HUBL">HUBL</a>
+                        <a href="#noteTaker">Note Taker</a>
                     </div>
                 </div>
             <div class="card">
@@ -50,6 +52,12 @@ export default function Portfolio() {
                     <h5>HUBL</h5>
                     <a href="https://pacific-brook-72214.herokuapp.com/" target="_blank">
                         <img class="img" src={hubl} alt="screenshot of HUBL application" />
+                        </a>
+                </div>
+                <div id="noteTaker">
+                    <h5>Note Taker</h5>
+                    <a href="https://salty-brushlands-25601.herokuapp.com/notes" target="_blank">
+                        <img class="img" src={noteTaker} alt="screenshot of Note Taker application" />
                         </a>
                 </div>
             </div>
