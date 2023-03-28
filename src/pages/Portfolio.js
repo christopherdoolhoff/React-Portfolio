@@ -5,6 +5,7 @@ import workDayScheduler from "../assets/images/workDayScheduler.png";
 import mediaSearch from "../assets/images/Media Search Screenshot.png";
 import hubl from "../assets/images/HUBL Screenshot.png";
 import noteTaker from "../assets/images/NoteTaker.png";
+import NoPMS from "../assets/images/NoPMS.png";
 
 export default function Portfolio() {
   return (
@@ -21,6 +22,7 @@ export default function Portfolio() {
             <a href="#MediaSearch">Media Search</a>
             <a href="#HUBL">HUBL</a>
             <a href="#noteTaker">Note Taker</a>
+            <a href="#NoPMS">NoPMS - Project Management System</a>
           </div>
         </div>
         <div class="card">
@@ -137,6 +139,27 @@ export default function Portfolio() {
               <img
                 class="img"
                 src={noteTaker}
+                alt="screenshot of Note Taker application"
+              />
+            </a>
+          </div>
+          <div id="NoPMS">
+            <h5>
+            NoPMS - Project Management System{" "}
+              <a
+                href="https://github.com/christopherdoolhoff/NoPMS"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </h5>
+            <a
+              href="https://calm-waters-92102.herokuapp.com/"
+              target="_blank"
+            >
+              <img
+                class="img"
+                src={NoPMS}
                 alt="screenshot of Note Taker application"
               />
             </a>
